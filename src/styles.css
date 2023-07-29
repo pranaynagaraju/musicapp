@@ -1,0 +1,160 @@
+body {
+  background-image: url("https://wallpapers.com/images/high/soothing-aatul4ke9zrqd0ps.webp");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  overflow: hidden;
+  display: flex;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family:"Lato", sans-serif;
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #d0cbcb;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(108, 92, 255);
+    border-radius: 10px;
+  }
+
+}
+button{
+  cursor: pointer;
+}
+nav{
+  background:rgba(131, 181, 255, 0.8);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container1 {
+  display: inline;
+  background: rgba(55, 109, 141, 0.3);
+  height: 100%;
+  width: 80%;
+  
+}
+.musicselectimg {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  outline: 1px solid rgba(0, 0, 0, 0.4);
+}
+.container {
+  display: inline;
+  position: relative;
+  background: rgba(101, 124, 188, 0.3);
+  height: 100%;
+  width: 500px;
+  border-left: 3px solid black;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.img1 {
+  margin-top: 50px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  outline: 5px solid rgba(0, 0, 0, 0.4);
+}
+audio {
+  margin-top: 100px;
+  width: 90%;
+
+  position: absolute;
+  top: 300px;
+}
+audio::-webkit-media-controls-panel {
+  background-color: rgb(96, 176, 93, 0.4);
+  /* Change the background color */
+
+  color: seagreen; /* Change the text color */
+}
+
+h1 {
+  background-color: rgba(236, 201, 168, 0.76);
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 5px;
+}
+@keyframes animate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (width<720px) {
+  .container {
+    gap: 5px;
+  }
+  .img1 {
+    height: 100px;
+    width: 100px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  audio {
+    height: 40px;
+    top: 120px;
+  }
+}
+@media (height<500px) {
+  .container {
+    gap: 5px;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  audio {
+    height: 40px;
+    top: 150px;
+  }
+}
+.musiccont {
+  width: 100%;
+  height: auto;
+  background: rgba(249, 206, 141, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@keyframes color {
+  0% {
+    background-color: rgba(130, 144, 183, 0.5);
+  }
+  20% {
+    background-color: rgba(185, 188, 101, 0.5);
+  }
+  40% {
+    background-color: rgba(188, 147, 101, 0.5);
+  }
+  60% {
+    background-color: rgba(188, 101, 130, 0.5);
+  }
+  80% {
+    background-color: rgba(188, 101, 184, 0.5);
+  }
+  100% {
+    background-color: rgba(150, 101, 188, 0.5);
+  }
+}
