@@ -80,7 +80,7 @@ audio::-webkit-media-controls-panel {
   background-color: rgb(96, 176, 93, 0.4);
   /* Change the background color */
 
-  color: seagreen; /* Change the text color */
+  color: rgb(49, 134, 86); /* Change the text color */
 }
 
 h1 {

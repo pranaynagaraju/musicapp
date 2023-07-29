@@ -54,7 +54,7 @@ export default function Player(props) {
 
       <audio controls key={name} onPlay={handlePlay}  autoPlay onPause={handlePause}>
         <source src={song} type="audio/mpeg" />
-        Your browser does not support the audio element.
+        Your browser does not support the audio.
       </audio>
     </div>
   );
